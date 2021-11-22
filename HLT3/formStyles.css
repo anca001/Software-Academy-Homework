@@ -1,0 +1,128 @@
+* {box-sizing: border-box}
+
+
+body {
+    background-color: #FEFEFE;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: #4D5F5B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+.toptitle{
+    background-color: rgba(64, 65, 41, 0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding: 2px 16px;
+}
+
+
+
+.subtitle{
+    background-color: rgba(64, 65, 41, 0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 5px 16px; 
+}
+
+.navbar {
+    background-color: #A2A669;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow:hidden;
+}
+
+.navbar a {
+    float: left;
+    color: #FEFEFE;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #A2A669;
+    color: #A48B6E;
+}
+
+footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    background-color: rgba(64, 65, 41, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    overflow:hidden;
+    padding: 14px 16px;
+}
+
+
+
+
+
+.container {
+    padding: 16px;
+}
+
+.label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text], input[type=password], input[type=email], input[list=country] {
+    font-family: Arial, Helvetica, sans-serif;
+    width:90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input [type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Style for the submit/register button #04AA6D original colour*/ 
+.registerbtn {
+    background-color: #3c5c50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity:1;
+}
+
+a {
+    color: darkgoldenrod;
+}
+
+.alert {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 4rem;
+    padding-top: -4rem;
+}
+
+.centredAlert {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
